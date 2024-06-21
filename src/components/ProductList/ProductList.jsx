@@ -5,14 +5,14 @@ import {useTelegram} from "../../hooks/useTelegram";
 import {useCallback, useEffect} from "react";
 
 const products = [
-    {id: '1', title: 'Джинсы', price: 5000, description: 'Синего цвета, прямые'},
-    {id: '2', title: 'Куртка', price: 12000, description: 'Зеленого цвета, теплая'},
-    {id: '3', title: 'Джинсы 2', price: 5000, description: 'Синего цвета, прямые'},
-    {id: '4', title: 'Куртка 8', price: 122, description: 'Зеленого цвета, теплая'},
-    {id: '5', title: 'Джинсы 3', price: 5000, description: 'Синего цвета, прямые'},
-    {id: '6', title: 'Куртка 7', price: 600, description: 'Зеленого цвета, теплая'},
-    {id: '7', title: 'Джинсы 4', price: 5500, description: 'Синего цвета, прямые'},
-    {id: '8', title: 'Куртка 5', price: 12000, description: 'Зеленого цвета, теплая'},
+    {id: '1', title: 'Support team', price: 5000, description: 'Profit per hour: 1K'},
+    {id: '2', title: 'HamsterBook', price: 12000, description: 'Profit per hour: 1K'},
+    {id: '3', title: 'X', price: 5000, description: 'Profit per hour: 1K'},
+    {id: '4', title: 'Cointelegraph', price: 4222, description: 'Profit per hour: 1K'},
+    {id: '5', title: 'HamsterTube', price: 5000, description: 'Profit per hour: 1K'},
+    {id: '6', title: 'HamsterGram', price: 600, description: 'Profit per hour: 1K'},
+    {id: '7', title: 'TikTok', price: 5500, description: 'Profit per hour: 1K'},
+    {id: '8', title: 'Coindesk', price: 12000, description: 'Profit per hour: 1K'},
 ]
 
 const getTotalPrice = (items = []) => {
