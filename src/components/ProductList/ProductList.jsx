@@ -78,6 +78,9 @@ const ProductList = () => {
                     className={'item'}
                 />
             ))}
+            <div className={"footer"}>
+                <p>Footer</p>
+            </div>
         </div>
     );
 };

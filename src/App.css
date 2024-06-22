@@ -1,10 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+html {
+  background-image: url("../public/background.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 body {
-  background: var(--tg-theme-bg-color);
+  --tg-theme-text-color: #f9f9f9;
+  --tg-theme-button-text-color: #f9f9f9;
+  --tg-theme-button-color: #356169;
   color: var(--tg-theme-text-color);
 }

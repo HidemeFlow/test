@@ -52,7 +52,9 @@ const Play = () => {
 
     return (
         <div>
-            хуй
+            <div className={"footer"}>
+                <p>Footer</p>
+            </div>
         </div>
         // <div className={"form"}>
         //     <h3>Введите ваши данные</h3>
