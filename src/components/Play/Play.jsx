@@ -1,6 +1,7 @@
 import React, {useCallback, useEffect, useState} from 'react';
 import './Play.css';
 import {useTelegram} from "../../hooks/useTelegram";
+import Text from '../Text/Text';
 
 const Play = () => {
     const [country, setCountry] = useState('');
@@ -54,10 +55,10 @@ const Play = () => {
         <div>
             <div className={"footer"}>
                 <div className="grid">
-                    <span className='ugrid'>Ern</span>
-                    <span className='ugrid'>Shop</span>
-                    <span className='ugrid'>Invite<br></br>Friends</span>
-                    <span className='ugrid'>Leaderboard</span>
+                    <Text className='ugrid' title='Ern'>Ern</Text>
+                    <Text className='ugrid' title='Ern'>Shop</Text>
+                    <Text className='ugrid' title='Ern'>Friends</Text>
+                    <Text className='ugrid' title='Ern'>Leaders</Text>
                 </div>
             </div>
         </div>
