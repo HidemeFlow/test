@@ -22,11 +22,9 @@
     -ms-grid-template-columns: repeat(4, auto);
     height: 100%;
     text-align: center;
-    padding: 10px 0;
+    padding: 10px;
 }
 .grid .ugrid {
-    line-height: 1.5;
     display: inline-block;
-    vertical-align: middle;
     border-right: 3px solid rgba(0,0,0,0.16);
 }
