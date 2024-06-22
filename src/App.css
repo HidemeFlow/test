@@ -1,9 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@font-face {
+  font-family: 'Knight Warrior';
+  font-style: normal;
+  font-weight: 300 800;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url('../public/KnightWarrior-w16n8.otf') format('opentype');
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Knight Warrior", sans-serif;
+  /* font-family: "Open Sans", sans-serif; */
   font-optical-sizing: auto;
   font-weight: 600;
   font-style: normal;

@@ -21,6 +21,7 @@
     bottom: 10px;
     width: 90%;
     height: 10%;
+    line-height: 10%;
     border-radius: 10px;
     background-color: tomato;
     
@@ -28,23 +29,22 @@
     0 5px 15px 0 rgba(0,0,0,0.08);
     background-color: #ffffff;
     
-    border-left: 0 solid #00ff99;
     color: #000;
-
     text-align: center;
 }
 
 .grid {
-    justify-self: center;
     display: grid;
     display: -ms-grid;
     grid-template-columns: repeat(4, auto);
     -ms-grid-template-columns: repeat(4, auto);
     height: 100%;
+    text-align: center;
+    padding: 10px 0;
 }
-.ugrid {
-    
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border-right: 3px solid black;
+.grid .ugrid {
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+    border-right: 3px solid rgba(0,0,0,0.16);
 }

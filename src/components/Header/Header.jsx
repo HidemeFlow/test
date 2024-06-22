@@ -8,10 +8,7 @@ const Header = () => {
 
     return (
         <div className={'header'}>
-            <Button onClick={onClose}>Close</Button>
-            <span className={'username'}>
-                {user?.username}
-            </span>
+            <span className='sp'>1.234.567.890$</span>
         </div>
     );
 };

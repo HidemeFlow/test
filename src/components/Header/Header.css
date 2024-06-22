@@ -9,3 +9,10 @@
 .username {
     margin-left: auto;
 }
+.sp {
+    text-align: center;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Knight Warrior", sans-serif;
+}
