@@ -53,7 +53,12 @@ const Play = () => {
     return (
         <div>
             <div className={"footer"}>
-                <p>Footer</p>
+                <div className="grid">
+                    <span className='ugrid'>Ern</span>
+                    <span className='ugrid'>Shop</span>
+                    <span className='ugrid'>Invite<br></br>Friends</span>
+                    <span className='ugrid'>Leaderboard</span>
+                </div>
             </div>
         </div>
         // <div className={"form"}>

@@ -27,10 +27,24 @@
     box-shadow: 0 15px 30px 0 rgba(0,0,0,0.11),
     0 5px 15px 0 rgba(0,0,0,0.08);
     background-color: #ffffff;
-    border-radius: 0.5rem;
     
     border-left: 0 solid #00ff99;
     color: #000;
 
     text-align: center;
+}
+
+.grid {
+    justify-self: center;
+    display: grid;
+    display: -ms-grid;
+    grid-template-columns: repeat(4, auto);
+    -ms-grid-template-columns: repeat(4, auto);
+    height: 100%;
+}
+.ugrid {
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-right: 3px solid black;
 }
