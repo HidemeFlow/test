@@ -11,7 +11,7 @@ const products = [
     {id: '4', title: 'Cointelegraph', price: 4222, description: 'Profit per hour: 1K'},
     {id: '5', title: 'HamsterTube', price: 5000, description: 'Profit per hour: 1K'},
     {id: '6', title: 'HamsterGram', price: 600, description: 'Profit per hour: 1K'},
-    {id: '7', title: 'TikTok', price: 5500, description: 'Profit per hour: 1K'},
+    {id: '7', title: 'Chlen', price: 5500, description: 'Profit per hour: 1K'},
     {id: '8', title: 'Coindesk', price: 12000, description: 'Profit per hour: 1K'},
 ]
 
