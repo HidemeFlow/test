@@ -29,7 +29,10 @@ html {
 }
 
 body {
-  --text-color: #9cb6dd;
+  --color-100: #e5e9f4;
+  --color-200: #d0d9ed;
+  --color-300: #b0c0e0;
+  --color-text: #9cb6dd;
   --color-500: #839dd1; 
   --color-600: #6a7fc1; 
   --color-700: #6374ae; 

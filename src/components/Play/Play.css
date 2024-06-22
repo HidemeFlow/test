@@ -28,7 +28,7 @@
     0 5px 15px 0 rgba(0,0,0,0.08);
     background-color: var(--color-900);
     
-    color: var(--text-color);
+    color: var(--color-100);
     text-align: center;
 }
 
