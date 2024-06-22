@@ -8,7 +8,7 @@ const Header = () => {
 
     return (
         <div className={'header'}>
-            <span className='sp'>1.234.567.890$</span>
+            <span className='sp' title='1.234.567.890$'>1.234.567.890$</span>
         </div>
     );
 };
