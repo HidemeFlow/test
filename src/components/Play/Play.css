@@ -18,9 +18,15 @@
 .grid {
     display: grid;
     display: -ms-grid;
-    grid-template-columns: repeat(4, auto);
-    -ms-grid-template-columns: repeat(4, auto);
+    grid-template-columns: repeat(8, auto);
+    -ms-grid-template-columns: repeat(8, auto);
     height: 100%;
     text-align: center;
     padding: 10px;
 }
+.vl {
+    width: 8px;
+    border-right: 2px solid rgba(11,11,11,0.1);
+    height: 100%;
+}
+

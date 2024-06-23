@@ -56,8 +56,11 @@ const Play = () => {
             <div className={"footer"}>
                 <div className="grid">
                     <Text className='ugrid' title='Ern'>Ern</Text>
+                    <div class="vl"></div>
                     <Text className='ugrid' title='Ern'>Shop</Text>
+                    <div class="vl"></div>
                     <Text className='ugrid' title='Ern'>Friends</Text>
+                    <div class="vl"></div>
                     <Text className='ugrid' title='Ern'>Leaders</Text>
                 </div>
             </div>
