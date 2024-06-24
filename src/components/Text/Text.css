@@ -1,11 +1,12 @@
 .text {
-    font-size: 6vw;
-    position: relative;
-    z-index: 0;
-    margin: auto;
-    color: var(--color-100);
-    text-align: center;
-    max-width: fit-content;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0px;
+    letter-spacing: 2px;
+    background: linear-gradient(rgb(246, 245, 244) 0%, rgb(208, 204, 200) 115.91%) text;
+    -webkit-text-fill-color: unset;
+    -webkit-text-stroke: 0px var(--color-100);
+    color: rgb(244, 240, 235);
+    text-shadow: var(--color-600) -2px -2px 0px, var(--color-600) 0px -2px 0px, var(--color-600) 2px -2px 0px, var(--color-600) 2px 0px 0px, var(--color-600) 2px 2px 0px, var(--color-600) 0px 2px 0px, var(--color-600) -2px 2px 0px, var(--color-600) -2px 0px 0px;
+    filter: drop-shadow(var(--color-600) 0px 2px 0px);
+    max-height: fit-content;
+    max-width: 700px;
 }

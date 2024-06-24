@@ -30,17 +30,18 @@ html {
 }
 
 body {
-  --color-100: #e5e9f4;
-  --color-200: #d0d9ed;
-  --color-300: #b0c0e0;
-  --color-text: #9cb6dd;
-  --color-500: #839dd1; 
-  --color-600: #6a7fc1; 
-  --color-700: #6374ae; 
-  --color-800: #4a5989; 
-  --color-900: #414e6e; 
+  --color-100: #e9f5e3;
+  --color-200: #d3eac8;
+  --color-300: #afd89d;
+  --color-400: #82bd69;
+  --color-500: #61a146; 
+  --color-600: #4c8435; 
+  --color-700: #3d692c; 
+  --color-800: #345427; 
+  --color-900: #2b4522; 
   --tg-theme-text-color: #f9f9f9;
   --tg-theme-button-text-color: #f9f9f9;
   --tg-theme-button-color: #356169;
+  --color-text: rgb(244, 240, 235);
   color: var(--tg-theme-text-color);
 }

@@ -5,6 +5,7 @@ import Header from "./components/Header/Header";
 import {Route, Routes} from 'react-router-dom'
 import ProductList from "./components/ProductList/ProductList";
 import Play from "./components/Play/Play";
+import TopSecret from './components/TopSecret/TopSecret';
 
 function App() {
     const {onToggleButton, tg} = useTelegram();
@@ -19,6 +20,7 @@ function App() {
             <Routes>
                 <Route index element={<ProductList />}/>
                 <Route path={'play'} element={<Play />}/>
+                <Route path={'pr'} element={<TopSecret />}/>
             </Routes>
         </div>
     );

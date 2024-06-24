@@ -54,19 +54,21 @@ const Play = () => {
     return (
         <div>
             <div className='pid-chlen'>
-                <div className="balance"><span className='sp' title='1.234.567.890$'>1.234.567.890$</span></div>
+                <div className="balance">
+                    <Text className='sp'>1.234.567.890$</Text>
+                </div>
                 
                 <img className="chlen" src="../../1.png" alt=""/>
             </div>
             <div className={"footer"}>
                 <div className="grid">
-                    <Text className='ugrid' title='Earn'>Earn</Text>
+                    <Text className='ugrid'>Earn</Text>
                     <div class="vl"></div>
-                    <Text className='ugrid' title='Ern'>Shop</Text>
+                    <Text className='ugrid'>Shop</Text>
                     <div class="vl"></div>
-                    <Text className='ugrid' title='Ern'>Friends</Text>
+                    <Text className='ugrid'>Friends</Text>
                     <div class="vl"></div>
-                    <Text className='ugrid' title='Ern'>Leaders</Text>
+                    <Text className='ugrid'>Leaders</Text>
                 </div>
             </div>
         </div>
