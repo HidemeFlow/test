@@ -14,6 +14,45 @@
     color: var(--color-100);
     text-align: center;
 }
+.sp {
+    font-size: 10vw;
+    line-height: 1; /* Забезпечує висоту рядка тексту, рівну висоті самого тексту */
+    position: fixed;
+    z-index: 0;
+    top: 7%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    color: var(--color-100);
+    text-align: center;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block; /* Дозволяє елементу мати висоту відповідно до тексту */
+}
+
+.sp:before {
+    content: attr(title);
+    position: absolute;
+    -webkit-text-stroke: 0.18em var(--color-900);
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+.pid-chlen {
+    display: flex;
+    justify-content: center; /* Horizontal centering */
+    align-items: center; /* Vertical centering */
+    height: 100vh; /* Full viewport height */
+}
+.chlen {
+    height: 300px;
+    transition: transform 0.1s;
+}
+.chlen:active {
+    transform: scale(0.95);
+}
 
 .grid {
     display: grid;

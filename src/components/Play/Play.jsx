@@ -53,9 +53,14 @@ const Play = () => {
 
     return (
         <div>
+            <div className='pid-chlen'>
+                <div className="balance"><span className='sp' title='1.234.567.890$'>1.234.567.890$</span></div>
+                
+                <img className="chlen" src="../../1.png" alt=""/>
+            </div>
             <div className={"footer"}>
                 <div className="grid">
-                    <Text className='ugrid' title='Ern'>Ern</Text>
+                    <Text className='ugrid' title='Earn'>Earn</Text>
                     <div class="vl"></div>
                     <Text className='ugrid' title='Ern'>Shop</Text>
                     <div class="vl"></div>
