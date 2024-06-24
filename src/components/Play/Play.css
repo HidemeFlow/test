@@ -39,8 +39,9 @@
     padding: 10px;
 }
 .vl {
-    width: 8px;
-    border-right: 2px solid rgba(43, 69, 34, 0.3);
+    margin-left: 10px;
+    width: 2px;
+    background-color: rgba(43, 69, 34, 0.3);
     height: 100%;
 }
 span.ugrid {
