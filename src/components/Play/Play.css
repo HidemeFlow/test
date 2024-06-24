@@ -23,10 +23,10 @@
 }
 .chlen {
     height: 300px;
-    transition: transform 0.1s;
+    transition: transform 0.05s;
 }
 .chlen:active {
-    transform: scale(0.95);
+    transform: scale(0.9);
 }
 
 .grid {
