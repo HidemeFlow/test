@@ -28,7 +28,7 @@
     -webkit-text-fill-color: unset;
     -webkit-text-stroke: 1px var(--color-100);
     background: var(--color-500);
-    border: 2px solid var(--color-600);
+    border: 2px solid var(--color-700);
     box-shadow: var(--color-700) 0px 3px 0px 0px;
     position: relative;
     display: flex;
@@ -39,6 +39,6 @@
 .button > span {
     -webkit-text-fill-color: rgb(244, 240, 235);
     -webkit-text-stroke-width: 0px;
-    text-shadow: var(--color-600) -1px -1px 0px, var(--color-600) 0px -1px 0px, var(--color-600) 1px -1px 0px, var(--color-600) 1px 0px 0px, var(--color-600) 1px 1px 0px, var(--color-600) 0px 1px 0px, var(--color-600) -1px 1px 0px, var(--color-600) -1px 0px 0px;
-    filter: drop-shadow(var(--color-600) 0px 2px 0px);
+    text-shadow: var(--color-700) -1px -1px 0px, var(--color-700) 0px -1px 0px, var(--color-700) 1px -1px 0px, var(--color-700) 1px 0px 0px, var(--color-700) 1px 1px 0px, var(--color-700) 0px 1px 0px, var(--color-700) -1px 1px 0px, var(--color-700) -1px 0px 0px;
+    filter: drop-shadow(var(--color-700) 0px 2px 0px);
 }

@@ -5,8 +5,8 @@
     -webkit-text-fill-color: unset;
     -webkit-text-stroke: 0px var(--color-100);
     color: rgb(244, 240, 235);
-    text-shadow: var(--color-600) -2px -2px 0px, var(--color-600) 0px -2px 0px, var(--color-600) 2px -2px 0px, var(--color-600) 2px 0px 0px, var(--color-600) 2px 2px 0px, var(--color-600) 0px 2px 0px, var(--color-600) -2px 2px 0px, var(--color-600) -2px 0px 0px;
-    filter: drop-shadow(var(--color-600) 0px 2px 0px);
+    text-shadow: var(--color-700) -2px -2px 0px, var(--color-700) 0px -2px 0px, var(--color-700) 2px -2px 0px, var(--color-700) 2px 0px 0px, var(--color-700) 2px 2px 0px, var(--color-700) 0px 2px 0px, var(--color-700) -2px 2px 0px, var(--color-700) -2px 0px 0px;
+    filter: drop-shadow(var(--color-700) 0px 2px 0px);
     max-height: fit-content;
     max-width: 700px;
 }
