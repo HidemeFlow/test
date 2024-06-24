@@ -30,15 +30,15 @@ html {
 }
 
 body {
-  --color-100: #e7f0f8;
-  --color-200: #d3e2f2;
-  --color-300: #b9cfe8;
-  --color-400: #9cb6dd;
-  --color-500: #839dd1; 
-  --color-600: #6a7fc1; 
-  --color-700: #6374ae; 
-  --color-800: #4a5989; 
-  --color-900: #414e6e; 
+  --color-100: #e9f5e3;
+  --color-200: #d3eac8;
+  --color-300: #afd89d;
+  --color-400: #82bd69;
+  --color-500: #61a146; 
+  --color-600: #4c8435; 
+  --color-700: #3d692c; 
+  --color-800: #345427; 
+  --color-900: #2b4522;
   --tg-theme-text-color: #f9f9f9;
   --tg-theme-button-text-color: #f9f9f9;
   --tg-theme-button-color: #356169;
