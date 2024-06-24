@@ -26,7 +26,7 @@
     transition: transform 0.05s;
 }
 .chlen:active {
-    transform: scale(0.9);
+    transform: scale(0.95);
 }
 
 .grid {
