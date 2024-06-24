@@ -32,8 +32,8 @@
 .grid {
     display: grid;
     display: -ms-grid;
-    grid-template-columns: repeat(8, auto);
-    -ms-grid-template-columns: repeat(8, auto);
+    grid-template-columns: repeat(7, auto);
+    -ms-grid-template-columns: repeat(7, auto);
     height: 100%;
     text-align: center;
     padding: 10px;
