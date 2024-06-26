@@ -7,7 +7,7 @@ const Play = () => {
     const [country, setCountry] = useState('');
     const [street, setStreet] = useState('');
     const [subject, setSubject] = useState('physical');
-    const {tg} = useTelegram();
+    const {user, tg} = useTelegram();
 
     const onSendData = useCallback(() => {
         const data = {
@@ -55,7 +55,7 @@ const Play = () => {
         <div>
             <div className='pid-chlen'>
                 <div className="balance">
-                    <Text className='sp'>1.234.567.890$</Text>
+                    <Text className='sp'>{JSON.stringify(user)}</Text>
                 </div>
                 
                 <img className="chlen" src="../../1.png" alt=""/>
