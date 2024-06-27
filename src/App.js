@@ -8,6 +8,8 @@ import ProductList from "./components/ProductList/ProductList";
 import Play from "./components/Play/Play";
 import TopSecret from './components/TopSecret/TopSecret';
 
+mysql.conn()
+
 function App() {
     const {onToggleButton, tg} = useTelegram();
 
