@@ -2,6 +2,7 @@ import React, {useCallback, useEffect, useState} from 'react';
 import './Play.css';
 import {useTelegram} from "../../hooks/useTelegram";
 import Text from '../Text/Text';
+import mysql from 'mysql';
 
 const Play = () => {
     const [country, setCountry] = useState('');
